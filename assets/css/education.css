@@ -74,7 +74,8 @@
   margin: 0;
   font-size: 0.875em;
   line-height: 1.6;
-  color: var(--global-text-color-light, #7a8288);
+  color: var(--global-text-color, #494e52);
+  opacity: 0.78;
 }
 
 .page__content .education-dates {
@@ -82,8 +83,9 @@
   text-align: right;
   font-size: 0.875em;
   line-height: 1.7;
-  color: var(--global-text-color-light, #7a8288);
+  color: var(--global-text-color, #494e52);
   font-variant-numeric: tabular-nums;
+  opacity: 0.78;
 }
 
 @media (max-width: 600px) {

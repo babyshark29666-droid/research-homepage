@@ -36,9 +36,10 @@
 
 .page__content .profile-section .entry-meta {
   margin: 0.3rem 0 0.85rem;
-  color: var(--global-text-color-light, #7a8288);
+  color: var(--global-text-color, #494e52);
   font-size: 0.88em;
   line-height: 1.5;
+  opacity: 0.78;
 }
 
 .page__content .profile-section .entry-meta em {
@@ -68,9 +69,12 @@
   align-items: center;
   gap: 0.35rem 0.7rem;
   margin: 0.2rem 0 0.45rem;
-  color: var(--global-text-color-light, #7a8288);
   font-size: 0.9em;
   line-height: 1.5;
+}
+
+.page__content .competition-context .competition-event {
+  opacity: 0.78;
 }
 
 .page__content .competition-context .competition-award {
@@ -125,6 +129,11 @@
   .page__content .profile-section > h3,
   .page__content .profile-entry > h3 {
     font-size: 1.2em;
+  }
+
+  .page__content .competition-entry .competition-context {
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .page__content .internship-project--prominent-title h4 {
