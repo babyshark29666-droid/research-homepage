@@ -93,7 +93,7 @@ Lu, H., **Zhao, S.**, & Wu, Q.<br>
 
 # 实习经历 {#实习经历}
 
-### 东莞市新佰人机器人科技有限责任公司 — 控制算法部门
+### NND — 控制算法部门
 <p class="entry-meta"><em>强化学习助理工程师实习 · 2026年6月至9月</em></p>
 
 <div class="internship-project internship-project--prominent-title" markdown="1">

@@ -1,8 +1,9 @@
 ---
-permalink: /
+permalink: /en/
 title: ""
 description: "Shuyuan Zhao — Statistics undergraduate at Guangzhou University, interested in statistical inference, data modeling and robotics control."
 author_profile: true
+lang: en-US
 redirect_from:
   - /about/
   - /about.html
@@ -97,7 +98,7 @@ Combines entropy-weighted TOPSIS, the DPSIR framework and nonlinear programming 
 
 # Internship Experience {#internship-experience}
 
-### Xinbairen Robotics — Control Algorithms Department
+### NND — Control Algorithms Department
 <p class="entry-meta"><em>Reinforcement Learning Assistant Engineer Intern · June–September 2026</em></p>
 
 <div class="internship-project internship-project--prominent-title" markdown="1">
