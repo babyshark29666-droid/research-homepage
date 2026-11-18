@@ -102,9 +102,9 @@ Combines entropy-weighted TOPSIS, the DPSIR framework and nonlinear programming 
 
 #### Cartesian-space admittance control for a six-axis manipulator
 
-- Built a mass–damping–stiffness admittance model, verified responses to three-dimensional forces in MuJoCo, and corrected coordinate transformations and response directions affected by inconsistent orientation representations.
-- Contributed to fixed-point admittance deployment in CODESYS and the addition of position offsets along linear trajectories; used segmented interpolation to reduce response lag and corrected ACS/MCS coordinate-system settings.
-- Tested Python–CODESYS TCP communication and integration with an ELFIN10-L robot, addressing sensor zero offsets, sampling periods and target-command update rates, and identifying stalled force-sensor data updates.
+- Used a mass–damping–stiffness model to convert end-effector forces into Cartesian pose adjustments along the nominal trajectory, allowing compliant displacement under load and return after release.
+- Built a control chain spanning force sensing, admittance computation, inverse kinematics, and joint control, with displacement, velocity, and torque limits.
+- Debugged the algorithm in MuJoCo and adapted the ELFIN10 robot's kinematic parameters, control cycle, and communication interface for parameter tuning and hardware validation.
 
 </div>
 
@@ -112,9 +112,8 @@ Combines entropy-weighted TOPSIS, the DPSIR framework and nonlinear programming 
 
 #### Joint-space impedance control for a six-axis manipulator
 
-- Developed spring–damper impedance control from joint position and velocity errors, contributing to six-axis control implementation and CST torque-output tests on hardware.
-- Integrated Pinocchio-based gravity compensation with friction compensation, calibrated drive-torque mappings and scaling, adjusted torque limits and added connection-loss protection.
-- Corrected the ELFIN10-L forward-kinematics model, verified forward/inverse kinematics and parallel comparisons of the original and revised interpolators, and conducted linear-trajectory and inclined-surface contact tests.
+- Built a spring–damper model from joint position and velocity errors to compute control torques for all six joints, with gravity and friction compensation.
+- Built a control chain spanning trajectory planning, inverse kinematics, joint impedance computation, and CST torque output, with soft start, torque limits, and connection-loss protection.
 
 </div>
 
