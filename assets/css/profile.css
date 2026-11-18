@@ -28,8 +28,21 @@
   margin: 0 0 0.5rem;
 }
 
+.page__content .profile-section > h3,
+.page__content .profile-entry > h3 {
+  font-size: 1.3em;
+  line-height: 1.35;
+}
+
 .page__content .profile-section .entry-meta {
-  margin: 0.4rem 0 0.85rem;
+  margin: 0.3rem 0 0.85rem;
+  color: var(--global-text-color-light, #7a8288);
+  font-size: 0.88em;
+  line-height: 1.5;
+}
+
+.page__content .profile-section .entry-meta em {
+  font-style: normal;
 }
 
 .page__content .profile-entry + .profile-entry {
@@ -47,6 +60,31 @@
 .page__content .internship-project--prominent-title h4 {
   font-size: 1.2em;
   line-height: 1.35;
+}
+
+.page__content .competition-entry .competition-context {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem 0.7rem;
+  margin: 0.2rem 0 0.45rem;
+  color: var(--global-text-color-light, #7a8288);
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
+.page__content .competition-context .competition-award {
+  display: inline-block;
+  padding: 0.1rem 0.55rem;
+  border: 1px solid var(--global-border-color, #f2f3f3);
+  border-radius: 999px;
+  color: var(--global-text-color, #494e52);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.page__content .competition-entry .entry-meta {
+  margin-top: 0;
 }
 
 .page__content .profile-section .education-list,
@@ -82,6 +120,11 @@
 
   .page__content .profile-entry + .profile-entry {
     margin-top: 1.75rem;
+  }
+
+  .page__content .profile-section > h3,
+  .page__content .profile-entry > h3 {
+    font-size: 1.2em;
   }
 
   .page__content .internship-project--prominent-title h4 {

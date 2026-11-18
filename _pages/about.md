@@ -128,7 +128,7 @@ Combines entropy-weighted TOPSIS, the DPSIR framework and nonlinear programming 
 <div class="profile-entry competition-entry" markdown="1">
 
 ### Multidimensional health risks in middle-aged and older adults
-**2025 11th National College Students Statistical Modeling Competition — Guangdong Division First Prize**
+<p class="competition-context"><span class="competition-event">11th National College Students Statistical Modeling Competition</span><span class="competition-award">Guangdong Division First Prize</span></p>
 
 <p class="entry-meta"><em>Team lead · March–May 2025</em></p>
 
@@ -141,7 +141,7 @@ Combines entropy-weighted TOPSIS, the DPSIR framework and nonlinear programming 
 <div class="profile-entry competition-entry" markdown="1">
 
 ### Sustainable tourism optimization
-**2025 Mathematical Contest in Modeling (MCM) — Honorable Mention**
+<p class="competition-context"><span class="competition-event">Mathematical Contest in Modeling (MCM)</span><span class="competition-award">Honorable Mention</span></p>
 
 <p class="entry-meta"><em>Team member, report writing and modeling analysis · January 2025</em></p>
 
@@ -153,7 +153,7 @@ Combines entropy-weighted TOPSIS, the DPSIR framework and nonlinear programming 
 <div class="profile-entry competition-entry" markdown="1">
 
 ### High-entropy alloy platform commercialization
-**China International College Students' Innovation Competition (2025), Guangdong Division — Silver Prize**
+<p class="competition-context"><span class="competition-event">China International College Students' Innovation Competition (Guangdong Division)</span><span class="competition-award">Silver Prize</span></p>
 
 <p class="entry-meta"><em>Technology commercialization and business plan lead · April–August 2025</em></p>
 

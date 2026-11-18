@@ -124,7 +124,7 @@ Lu, H., **Zhao, S.**, & Wu, Q.<br>
 <div class="profile-entry competition-entry" markdown="1">
 
 ### 中老年人健康风险的多维量化与纵向分析
-**2025年（第十一届）全国大学生统计建模大赛｜广东赛区一等奖**
+<p class="competition-context"><span class="competition-event">第十一届全国大学生统计建模大赛</span><span class="competition-award">广东赛区一等奖</span></p>
 
 <p class="entry-meta"><em>项目负责人 · 2025年3月至5月</em></p>
 
@@ -137,7 +137,7 @@ Lu, H., **Zhao, S.**, & Wu, Q.<br>
 <div class="profile-entry competition-entry" markdown="1">
 
 ### 可持续旅游优化建模
-**2025年美国大学生数学建模竞赛（Mathematical Contest in Modeling，MCM）｜Honorable Mention**
+<p class="competition-context"><span class="competition-event">美国大学生数学建模竞赛（MCM）</span><span class="competition-award">Honorable Mention</span></p>
 
 <p class="entry-meta"><em>团队成员，负责报告写作与建模分析 · 2025年1月</em></p>
 
@@ -149,7 +149,7 @@ Lu, H., **Zhao, S.**, & Wu, Q.<br>
 <div class="profile-entry competition-entry" markdown="1">
 
 ### 高熵合金性能预测与优化平台商业化方案
-**中国国际大学生创新大赛（2025）广东省分赛｜银奖**
+<p class="competition-context"><span class="competition-event">中国国际大学生创新大赛（广东省分赛）</span><span class="competition-award">银奖</span></p>
 
 <p class="entry-meta"><em>技术商业化与商业计划负责人 · 2025年4月至8月</em></p>
 
