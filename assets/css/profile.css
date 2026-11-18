@@ -1,4 +1,19 @@
 /* Whitespace separates sections, projects and supporting details. */
+@media (min-width: 925px) {
+  #main .page {
+    padding-right: clamp(4rem, 7vw, 6rem);
+  }
+}
+
+@media (min-width: 1280px) {
+  html[lang="en"] .page__content .profile-section[aria-labelledby="about-me"] > p:nth-of-type(n+2),
+  html[lang="en"] .page__content .publication-entry > p:nth-of-type(2),
+  html[lang="en"] .page__content .profile-section li {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+}
+
 .page__content .profile-section {
   display: flow-root;
 }

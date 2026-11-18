@@ -9,7 +9,7 @@
 
 .education-entry {
   display: grid;
-  grid-template-columns: 52px minmax(0, 1fr) 160px;
+  grid-template-columns: 52px minmax(0, 1fr) max-content;
   align-items: center;
   gap: 16px;
   padding: 14px 0;
@@ -86,6 +86,7 @@
   color: var(--global-text-color, #494e52);
   font-variant-numeric: tabular-nums;
   opacity: 0.78;
+  white-space: nowrap;
 }
 
 @media (max-width: 600px) {
@@ -110,6 +111,7 @@
   .page__content .education-dates {
     grid-column: 2;
     text-align: left;
+    white-space: normal;
   }
 
   .education-dates br {
