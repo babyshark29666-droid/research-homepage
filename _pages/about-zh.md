@@ -10,7 +10,7 @@ lang: zh-CN
 
 # 个人简介 {#个人简介}
 
-广州大学统计学本科生，预计 2027 年 7 月毕业。曾参与六轴机械臂导纳与阻抗控制开发，开展 MuJoCo 仿真及 ELFIN10-L 真机联调。现寻找机器人控制或数据分析相关实习，每周可到岗 5 天，可连续实习 6 个月以上。
+我是广州大学统计学本科生，预计于 2027 年 7 月毕业，已获香港科技大学（广州）Redbird MPhil 录取，计划于 2027 年 9 月入学。曾参与未知背景下泊松信号的精确区间估计研究和纵向数据统计建模，积累了方法构建、数值模拟的经验。希望在硕士阶段从大语言模型与 Agent 的错误分析、可靠性评测入手，进一步探索多步推理、知识检索与整合，以及如何利用反馈和强化学习改进推理与决策。
 
 </section>
 
@@ -40,35 +40,6 @@ lang: zh-CN
 </div>
 <p class="education-dates">2023年9月—2027年7月<br><span>预计毕业</span></p>
 </div>
-</div>
-
-</section>
-
-<section class="profile-section" markdown="1" aria-labelledby="实习经历">
-
-# 实习经历 {#实习经历}
-
-### 东莞市新佰人机器人科技有限责任公司 — 控制算法部门
-<p class="entry-meta"><em>强化学习助理工程师实习 · 2026年6月至9月</em></p>
-
-<div class="internship-project internship-project--prominent-title" markdown="1">
-
-#### 六轴机械臂笛卡尔空间导纳控制
-
-- 建立质量—阻尼—刚度导纳模型，在 MuJoCo 中验证三维受力响应，并修正姿态表示不一致引起的坐标变换与响应方向问题。
-- 参与 CODESYS 定点导纳部署及直线轨迹增量叠加，采用分段插补缓解导纳响应滞后，修正 ACS/MCS 坐标系配置问题。
-- 开展 Python–CODESYS TCP 通信与 ELFIN10-L 真机联调，处理传感器零点偏置、采样周期和目标指令更新频率问题，并定位传感器数据停止刷新故障。
-
-</div>
-
-<div class="internship-project internship-project--prominent-title" markdown="1">
-
-#### 六轴机械臂关节空间阻抗控制
-
-- 基于关节位置与速度误差建立弹簧—阻尼阻抗控制，参与六轴阻抗控制实现与真机 CST 力矩输出测试。
-- 联调 Pinocchio 重力补偿与摩擦补偿，校准驱动力矩映射及量级，调整力矩限幅并加入通信失联保护。
-- 修正 ELFIN10-L 正运动学模型，通过正逆运动学回环与新旧插补器并行对照验证，开展直线轨迹与斜面接触测试。
-
 </div>
 
 </section>
@@ -113,6 +84,35 @@ Lu, H., **Zhao, S.**, & Wu, Q.<br>
 - **统计方法研究：** 参与构建基于 h 函数的精确区间估计框架，结合 Berger–Boos 校正处理未知背景参数，并利用泊松分位数实现样本空间的动态截断。
 - **数值模拟与性能评估：** 设计并开展数值模拟，对比 Bayesian、IM 和 NIM 三类方法下初始、一次改进及迭代优化置信区间的覆盖概率（CP）与期望区间长度（EL），分析不同方法的覆盖精度与区间效率。
 - **实际数据应用：** 将所提出的方法应用于 KARMEN 中微子探测数据，结合背景估计及其标准差构建辅助泊松观测，对比不同方法下的信号强度置信区间。
+
+</div>
+
+</section>
+
+<section class="profile-section" markdown="1" aria-labelledby="实习经历">
+
+# 实习经历 {#实习经历}
+
+### 东莞市新佰人机器人科技有限责任公司 — 控制算法部门
+<p class="entry-meta"><em>强化学习助理工程师实习 · 2026年6月至9月</em></p>
+
+<div class="internship-project internship-project--prominent-title" markdown="1">
+
+#### 六轴机械臂笛卡尔空间导纳控制
+
+- 建立质量—阻尼—刚度导纳模型，在 MuJoCo 中验证三维受力响应，并修正姿态表示不一致引起的坐标变换与响应方向问题。
+- 参与 CODESYS 定点导纳部署及直线轨迹增量叠加，采用分段插补缓解导纳响应滞后，修正 ACS/MCS 坐标系配置问题。
+- 开展 Python–CODESYS TCP 通信与 ELFIN10-L 真机联调，处理传感器零点偏置、采样周期和目标指令更新频率问题，并定位传感器数据停止刷新故障。
+
+</div>
+
+<div class="internship-project internship-project--prominent-title" markdown="1">
+
+#### 六轴机械臂关节空间阻抗控制
+
+- 基于关节位置与速度误差建立弹簧—阻尼阻抗控制，参与六轴阻抗控制实现与真机 CST 力矩输出测试。
+- 联调 Pinocchio 重力补偿与摩擦补偿，校准驱动力矩映射及量级，调整力矩限幅并加入通信失联保护。
+- 修正 ELFIN10-L 正运动学模型，通过正逆运动学回环与新旧插补器并行对照验证，开展直线轨迹与斜面接触测试。
 
 </div>
 

@@ -12,7 +12,7 @@ redirect_from:
 
 # About Me {#about-me}
 
-I am a statistics undergraduate at Guangzhou University, expected to graduate in July 2027. I contributed to the development of admittance and impedance control for a six-axis robotic arm, including MuJoCo simulation and integration testing on an ELFIN10-L robot. I am seeking a robotics control or data analysis internship and can work five days a week for at least six months.
+I am a statistics undergraduate at Guangzhou University, expected to graduate in July 2027. I have received an offer for the Redbird MPhil at HKUST (Guangzhou) and plan to enroll in September 2027. I have participated in research on exact confidence intervals for Poisson signals with unknown backgrounds and in statistical modeling of longitudinal data, gaining experience in method development and numerical simulation. During my MPhil studies, I hope to begin with error analysis and reliability evaluation of large language models and agents, then explore multistep reasoning, knowledge retrieval and integration, and how feedback and reinforcement learning can improve reasoning and decision making.
 
 </section>
 
@@ -42,35 +42,6 @@ I am a statistics undergraduate at Guangzhou University, expected to graduate in
 </div>
 <p class="education-dates">Sep 2023 – Jul 2027<br><span>Expected</span></p>
 </div>
-</div>
-
-</section>
-
-<section class="profile-section" markdown="1" aria-labelledby="internship-experience">
-
-# Internship Experience {#internship-experience}
-
-### Xinbairen Robotics — Control Algorithms Department
-<p class="entry-meta"><em>Reinforcement Learning Assistant Engineer Intern · June–September 2026</em></p>
-
-<div class="internship-project internship-project--prominent-title" markdown="1">
-
-#### Cartesian-space admittance control for a six-axis manipulator
-
-- Built a mass–damping–stiffness admittance model, verified responses to three-dimensional forces in MuJoCo, and corrected coordinate transformations and response directions affected by inconsistent orientation representations.
-- Contributed to fixed-point admittance deployment in CODESYS and the addition of position offsets along linear trajectories; used segmented interpolation to reduce response lag and corrected ACS/MCS coordinate-system settings.
-- Tested Python–CODESYS TCP communication and integration with an ELFIN10-L robot, addressing sensor zero offsets, sampling periods and target-command update rates, and identifying stalled force-sensor data updates.
-
-</div>
-
-<div class="internship-project internship-project--prominent-title" markdown="1">
-
-#### Joint-space impedance control for a six-axis manipulator
-
-- Developed spring–damper impedance control from joint position and velocity errors, contributing to six-axis control implementation and CST torque-output tests on hardware.
-- Integrated Pinocchio-based gravity compensation with friction compensation, calibrated drive-torque mappings and scaling, adjusted torque limits and added connection-loss protection.
-- Corrected the ELFIN10-L forward-kinematics model, verified forward/inverse kinematics and parallel comparisons of the original and revised interpolators, and conducted linear-trajectory and inclined-surface contact tests.
-
 </div>
 
 </section>
@@ -115,6 +86,35 @@ Combines entropy-weighted TOPSIS, the DPSIR framework and nonlinear programming 
 - **Statistical methodology:** Contributed to an h-function-based framework for exact interval estimation, incorporating Berger–Boos correction to handle unknown background parameters and using Poisson quantiles to dynamically truncate the sample space.
 - **Numerical simulation and performance evaluation:** Designed and conducted numerical simulations comparing the coverage probability (CP) and expected interval length (EL) of initial, one-time improved and iteratively optimized confidence intervals across Bayesian, IM and NIM methods, assessing coverage accuracy and interval efficiency.
 - **Real-data application:** Applied the proposed method to KARMEN neutrino detection data, constructing auxiliary Poisson observations from the background estimate and its standard deviation, and comparing confidence intervals for signal intensity across methods.
+
+</div>
+
+</section>
+
+<section class="profile-section" markdown="1" aria-labelledby="internship-experience">
+
+# Internship Experience {#internship-experience}
+
+### Xinbairen Robotics — Control Algorithms Department
+<p class="entry-meta"><em>Reinforcement Learning Assistant Engineer Intern · June–September 2026</em></p>
+
+<div class="internship-project internship-project--prominent-title" markdown="1">
+
+#### Cartesian-space admittance control for a six-axis manipulator
+
+- Built a mass–damping–stiffness admittance model, verified responses to three-dimensional forces in MuJoCo, and corrected coordinate transformations and response directions affected by inconsistent orientation representations.
+- Contributed to fixed-point admittance deployment in CODESYS and the addition of position offsets along linear trajectories; used segmented interpolation to reduce response lag and corrected ACS/MCS coordinate-system settings.
+- Tested Python–CODESYS TCP communication and integration with an ELFIN10-L robot, addressing sensor zero offsets, sampling periods and target-command update rates, and identifying stalled force-sensor data updates.
+
+</div>
+
+<div class="internship-project internship-project--prominent-title" markdown="1">
+
+#### Joint-space impedance control for a six-axis manipulator
+
+- Developed spring–damper impedance control from joint position and velocity errors, contributing to six-axis control implementation and CST torque-output tests on hardware.
+- Integrated Pinocchio-based gravity compensation with friction compensation, calibrated drive-torque mappings and scaling, adjusted torque limits and added connection-loss protection.
+- Corrected the ELFIN10-L forward-kinematics model, verified forward/inverse kinematics and parallel comparisons of the original and revised interpolators, and conducted linear-trajectory and inclined-surface contact tests.
 
 </div>
 
