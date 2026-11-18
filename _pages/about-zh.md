@@ -1,5 +1,5 @@
 ---
-permalink: /zh/
+permalink: /
 title: ""
 description: "赵淑媛，广州大学统计学本科生，关注统计推断、数据建模与机器人控制。"
 author_profile: true
