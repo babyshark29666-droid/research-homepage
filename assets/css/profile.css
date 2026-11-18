@@ -45,7 +45,8 @@
 }
 
 .page__content .internship-project--prominent-title h4 {
-  font-size: 0.9em;
+  font-size: 1.06em;
+  line-height: 1.35;
 }
 
 .page__content .profile-section .education-list,
@@ -81,5 +82,9 @@
 
   .page__content .profile-entry + .profile-entry {
     margin-top: 1.75rem;
+  }
+
+  .page__content .internship-project--prominent-title h4 {
+    font-size: 1em;
   }
 }

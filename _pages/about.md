@@ -12,7 +12,9 @@ redirect_from:
 
 # About Me {#about-me}
 
-I am a statistics undergraduate at Guangzhou University, expected to graduate in July 2027. I have received an offer for the Redbird MPhil at HKUST (Guangzhou) and plan to enroll in September 2027. I have participated in research on exact confidence intervals for Poisson signals with unknown backgrounds and in statistical modeling of longitudinal data, gaining experience in method development and numerical simulation. During my MPhil studies, I hope to begin with error analysis and reliability evaluation of large language models and agents, then explore multistep reasoning, knowledge retrieval and integration, and how feedback and reinforcement learning can improve reasoning and decision making.
+I am a statistics undergraduate at Guangzhou University. I have received an offer for the Redbird MPhil at HKUST (Guangzhou) and plan to enroll in **September 2027**.
+
+I have participated in research on exact confidence intervals for Poisson signals with unknown backgrounds and in statistical modeling of longitudinal data, gaining experience in method development and numerical simulation. During my MPhil studies, I hope to begin with error analysis and reliability evaluation of large language models and agents, then explore multistep reasoning, knowledge retrieval and integration, and how feedback and reinforcement learning can improve reasoning and decision making.
 
 </section>
 
@@ -131,8 +133,8 @@ Combines entropy-weighted TOPSIS, the DPSIR framework and nonlinear programming 
 <p class="entry-meta"><em>Team lead · March–May 2025</em></p>
 
 - Led topic selection, research framework design, modeling strategy and team coordination for a longitudinal study of health risks.
-- Constructed 6,800+ modeling samples from 21,000+ CHARLS records across three waves; combined Random Forest and XGBoost feature selection with fixed-effects models and GEE.
-- Identified 12 key frailty predictors from 26 indicators across five risk dimensions, and analyzed age-specific patterns to inform stratified intervention and community health planning.
+- Constructed **6,800+** modeling samples from **21,000+** CHARLS records across three waves; combined Random Forest and XGBoost feature selection with fixed-effects models and GEE.
+- Identified **12** key frailty predictors from 26 indicators across five risk dimensions, and analyzed age-specific patterns to inform stratified intervention and community health planning.
 
 </div>
 
@@ -180,7 +182,7 @@ Combines entropy-weighted TOPSIS, the DPSIR framework and nonlinear programming 
 
 - **Programming and tools:** Python, R, Linux, Git, CODESYS.
 - **Statistics and data analysis:** statistical modeling, longitudinal data analysis, machine learning, survey data analysis, NumPy, Pandas, Matplotlib.
-- **Robotics:** MuJoCo, Pinocchio, admittance control, impedance control, PD/PID and dynamics compensation.
+- **Robotics:** MuJoCo, Pinocchio, admittance control, impedance control.
 - **Languages:** Mandarin (native), English (IELTS 6.5).
 
 </section>
